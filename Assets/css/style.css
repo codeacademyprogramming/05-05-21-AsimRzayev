@@ -261,18 +261,46 @@ a {
 .button {
   color: #2264D1;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
   letter-spacing: 0.018em;
   padding: 5px 10px;
   border: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: 1px solid #2264D1;
+}
+
+.button-transparent {
+  background: transparent;
+}
+
+.button-primary {
+  background: #007bff;
+}
+
+.button-secondary {
+  background: #6c757d;
+}
+
+.button-success {
+  background: #28a745;
+}
+
+.button-danger {
+  background: #dc3545;
+}
+
+.button-info {
+  background: #17a2b8;
+}
+
+.button-muted {
+  background: #6c757d;
 }
 
 nav {

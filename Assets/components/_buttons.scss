@@ -1,0 +1,28 @@
+@import 'variables';
+.button {
+    color: #2264D1;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    //styleName: Inter / Body Small (Medium);
+    font-family: $fontfamilyRoboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.018em;
+    padding: 5px 10px;
+    border: none;
+    box-sizing: border-box;
+border: 1px solid #2264D1;
+  }
+
+  @each $key,$value in $colors {
+    .button-#{$key}
+    {
+      background: $value;
+    }
+  }
+  
+  
+ 
