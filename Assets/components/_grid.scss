@@ -1,0 +1,68 @@
+@import "./component-mixins";
+%colsPadProps{
+    padding: 0px 10px;
+
+}
+.container
+{
+    width: 85%;
+    margin: 0px auto;
+    &-fluid
+    {
+      width: 100%;
+    }
+}
+.row
+{
+    display: flex;
+ 
+}
+@include displayParams("block");
+@include displayParams("inline");
+@include displayParams("inline-block");
+@include displayParams("flex");
+.flex-wrap
+{
+     flex-wrap: wrap;
+   
+}
+.flex-nowrap
+{
+    flex-wrap: nowrap;
+}
+
+.padding-reset
+{
+    margin: 0px -10px;
+}
+@include marginsauto("ml");
+@include marginsauto("mr");
+$splitcontainer:100%/12;
+$colNames:(xl,md);
+$splitNumber:1;
+
+@while $splitNumber<=12 {
+   
+    .col-xl-#{$splitNumber} {
+        width: $splitNumber * $splitcontainer ;
+        @extend %colsPadProps;
+    }
+    $splitNumber:$splitNumber+1;
+}
+$justify-alignment: (
+    'center': center,
+    'start': flex-start,
+    'end': flex-end,
+    'around': space-around,
+    'between': space-between,
+    'evenly':space-evenly
+);
+@each $key,$value in $justify-alignment {
+    .justify-content-#{$key}{
+        justify-content: #{$value};
+    }
+
+}
+
+
+
