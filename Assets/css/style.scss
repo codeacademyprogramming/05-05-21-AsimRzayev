@@ -1,10 +1,17 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 @import './defaultparams';
 @import '../components/grid';
 @import '../components/cards';
 @import '../components/buttons';
-@import '../components/footer';
 @import '../components/navbar';
 @import '../components/variables';
+.navbar-right
+{
+   a{
+     height: 35px;
+     line-height: 25px;
+        margin-top: 15px;
+       margin-left: 15px;
+   }
+}
 

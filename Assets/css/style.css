@@ -376,4 +376,11 @@ nav {
   font-size: 20px;
   color: #787885;
 }
+
+.navbar-right a {
+  height: 35px;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
 /*# sourceMappingURL=style.css.map */
