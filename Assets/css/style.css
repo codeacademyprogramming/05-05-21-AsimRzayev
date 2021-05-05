@@ -303,6 +303,14 @@ a {
   background: #6c757d;
 }
 
+.button-light {
+  background: #f8f9fa;
+}
+
+.button-white {
+  background: #fff;
+}
+
 nav {
   padding: 0px 20px;
 }
@@ -375,6 +383,78 @@ nav {
   border: none;
   font-size: 20px;
   color: #787885;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.text-light {
+  color: #f8f9fa;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.bg-primary {
+  background: #007bff;
+}
+
+.bg-secondary {
+  background: #6c757d;
+}
+
+.bg-success {
+  background: #28a745;
+}
+
+.bg-danger {
+  background: #dc3545;
+}
+
+.bg-info {
+  background: #17a2b8;
+}
+
+.bg-muted {
+  background: #6c757d;
+}
+
+.bg-light {
+  background: #f8f9fa;
+}
+
+.bg-white {
+  background: #fff;
 }
 
 .navbar-right a {

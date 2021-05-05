@@ -5,6 +5,21 @@
 @import '../components/buttons';
 @import '../components/navbar';
 @import '../components/variables';
+@each $key,$value in $colors {
+    .text-#{$key}
+    {
+      color: $value;
+    }
+}
+
+@each $key,$value in $colors {
+    .bg-#{$key}
+    {
+        background:$value ;
+    }
+}
+
+
 .navbar-right
 {
    a{
@@ -14,4 +29,5 @@
        margin-left: 15px;
    }
 }
+
 
