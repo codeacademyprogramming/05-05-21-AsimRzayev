@@ -66,3 +66,45 @@
         }
     }
 }
+footer
+{
+    margin-top: 80px;
+    .footer-item
+    {
+    width: 100%;
+    padding: 30px 20px; 
+    background: #F7F7FA;
+    border-radius: 10px;
+   text-align: center;
+      i{
+        font-size: 34px;
+      }
+      h3{
+          //styleName: Quicksand / 20 sp • H6;
+            font-family: $fontfamilyRoboto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0.0075em;
+            margin: 5px 0px ;
+      }
+      p{
+          //styleName: Inter / Body Small;
+        font-family: $fontfamilyInter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #5A5B6A;
+      }
+
+    }
+    .col-xl-4:nth-child(1) i {
+        color: #65B168;
+    }
+    .col-xl-4:nth-child(2) i{
+      color: #7985CB;
+  }
+  .col-xl-4:nth-child(3) i{
+      color: #EF6292;
+  }
+}

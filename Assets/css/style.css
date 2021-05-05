@@ -557,4 +557,49 @@ nav {
   outline-width: #787885;
   border-color: #787885;
 }
+
+footer {
+  margin-top: 80px;
+}
+
+footer .footer-item {
+  width: 100%;
+  padding: 30px 20px;
+  background: #F7F7FA;
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer .footer-item i {
+  font-size: 34px;
+}
+
+footer .footer-item h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.0075em;
+  margin: 5px 0px;
+}
+
+footer .footer-item p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5A5B6A;
+}
+
+footer .col-xl-4:nth-child(1) i {
+  color: #65B168;
+}
+
+footer .col-xl-4:nth-child(2) i {
+  color: #7985CB;
+}
+
+footer .col-xl-4:nth-child(3) i {
+  color: #EF6292;
+}
 /*# sourceMappingURL=style.css.map */
