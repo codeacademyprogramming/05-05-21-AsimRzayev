@@ -15,6 +15,7 @@
     border: none;
     box-sizing: border-box;
 border: 1px solid #2264D1;
+border-radius: 3px;
   }
 
   @each $key,$value in $colors {
@@ -23,6 +24,11 @@ border: 1px solid #2264D1;
       background: $value;
     }
   }
-  
+  @each $key,$value in $colors {
+    .button-border-#{$key}
+    {
+     border-color: $value;
+    }
+  }
   
  

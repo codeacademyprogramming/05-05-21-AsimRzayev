@@ -273,6 +273,7 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid #2264D1;
+  border-radius: 3px;
 }
 
 .button-transparent {
@@ -309,6 +310,50 @@ a {
 
 .button-white {
   background: #fff;
+}
+
+.button-lightblue {
+  background: lightblue;
+}
+
+.button-border-transparent {
+  border-color: transparent;
+}
+
+.button-border-primary {
+  border-color: #007bff;
+}
+
+.button-border-secondary {
+  border-color: #6c757d;
+}
+
+.button-border-success {
+  border-color: #28a745;
+}
+
+.button-border-danger {
+  border-color: #dc3545;
+}
+
+.button-border-info {
+  border-color: #17a2b8;
+}
+
+.button-border-muted {
+  border-color: #6c757d;
+}
+
+.button-border-light {
+  border-color: #f8f9fa;
+}
+
+.button-border-white {
+  border-color: #fff;
+}
+
+.button-border-lightblue {
+  border-color: lightblue;
 }
 
 nav {
@@ -421,6 +466,10 @@ nav {
   color: #fff;
 }
 
+.text-lightblue {
+  color: lightblue;
+}
+
 .bg-transparent {
   background: transparent;
 }
@@ -457,6 +506,10 @@ nav {
   background: #fff;
 }
 
+.bg-lightblue {
+  background: lightblue;
+}
+
 .navbar-right a {
   height: 35px;
   line-height: 25px;
@@ -469,5 +522,39 @@ nav {
   -webkit-box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.32);
           box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.32);
   border-radius: 10px;
+}
+
+#Products .top-views {
+  margin: 40px 0px;
+}
+
+.selection {
+  width: 100%;
+  position: relative;
+}
+
+.selection label {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  z-index: 2;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  background: white;
+}
+
+.selection select {
+  height: 36px;
+  width: 152px;
+  color: #787885;
+  outline-width: #787885;
+  border-color: #787885;
+  border-radius: 5px;
+}
+
+.selection select option {
+  color: #787885;
+  outline-width: #787885;
+  border-color: #787885;
 }
 /*# sourceMappingURL=style.css.map */
