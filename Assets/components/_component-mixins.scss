@@ -1,0 +1,25 @@
+@mixin marginsauto($val)
+{
+    @if $val=="ml"{
+        .ml-auto
+        {
+            margin-left: auto;
+        }
+    }
+    @else if $val=="mr"
+    {
+        .mr-auto
+        {
+            margin-right: auto;
+        }
+    }
+}
+
+@mixin displayParams($dispvalue)
+{
+        .display-#{$dispvalue}
+        {
+           display: #{$dispvalue};
+        }
+    
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul 
+{
+    li{
+    list-style-type: none;
+    }
+}
+a{
+    text-decoration: none;
+}
+$itemwidth: 100;
+$while-i: $itemwidth;
+@while $while-i> 0 {
+    .w-#{$while-i} {
+        width: #{$while-i}#{"%"};
+    }
+    $while-i: $while-i - 5;
+}
