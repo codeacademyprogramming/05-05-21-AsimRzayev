@@ -18,5 +18,5 @@ $while-i: $itemwidth;
     .w-#{$while-i} {
         width: #{$while-i}#{"%"};
     }
-    $while-i: $while-i - 25;
+    $while-i: $while-i - 5;
 }

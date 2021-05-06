@@ -29,6 +29,9 @@
        margin-left: 15px;
    }
 }
+#mainContent{
+    margin-top: 30px;
+}
 #Products{
     padding-top: 10px;
    box-shadow:2px 3px 10px 2px rgba(0,0,0,0.32);
@@ -69,6 +72,7 @@
 footer
 {
     margin-top: 80px;
+    margin-bottom: 80px;
     .footer-item
     {
     width: 100%;
@@ -107,4 +111,80 @@ footer
   .col-xl-4:nth-child(3) i{
       color: #EF6292;
   }
+}
+.left-item
+{
+    height: 100vh;
+  
+    .depart-button
+    {
+     display: flex;
+        height: 56px;
+        width: 304px;
+       justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        font-size: 25px;
+        i{
+            display: inline-block;
+            text-align: left;
+        }
+    }
+}
+.category-list{
+    padding-left: 30px;
+    margin-top: 20px;
+    i{
+        color: #76A9FF;
+       
+    }
+    label{
+        //styleName: Inter / Body Default (Medium);
+font-family: $fontfamilyInter;
+font-size: 16px;
+padding-left: 10px;
+font-weight: 500;
+line-height: 24px;
+        color: #19191D;
+    }
+    ul {
+
+        li{
+            margin-top: 16px;
+        }
+    }
+}
+.left-filter{
+
+    margin-top: 60px;
+   
+   background: #F7F7FA;
+   padding: 10px  20px 15px;
+   
+h3{
+    //styleName: Inter / Body Default (Medium);
+font-family: $fontfamilyInter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+margin: 10px 0px;
+}
+ul li{
+    margin-top: 10px;
+}
+ label{
+     //styleName: Inter / Body Default;
+font-family: $fontfamilyInter;
+font-size: 16px;
+
+font-weight: 400;
+line-height: 24px;
+margin-left: 20px;
+
+   color:  #19191D;
+ }
+}
+.fl-date
+{
+    margin-top: 20px;
 }

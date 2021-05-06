@@ -18,16 +18,80 @@ a {
   width: 100%;
 }
 
+.w-95 {
+  width: 95%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
 .w-75 {
   width: 75%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-55 {
+  width: 55%;
 }
 
 .w-50 {
   width: 50%;
 }
 
+.w-45 {
+  width: 45%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
 .w-25 {
   width: 25%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-5 {
+  width: 5%;
 }
 
 .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
@@ -517,6 +581,10 @@ nav {
   margin-left: 15px;
 }
 
+#mainContent {
+  margin-top: 30px;
+}
+
 #Products {
   padding-top: 10px;
   -webkit-box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.32);
@@ -560,6 +628,7 @@ nav {
 
 footer {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 footer .footer-item {
@@ -601,5 +670,82 @@ footer .col-xl-4:nth-child(2) i {
 
 footer .col-xl-4:nth-child(3) i {
   color: #EF6292;
+}
+
+.left-item {
+  height: 100vh;
+}
+
+.left-item .depart-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  width: 304px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.left-item .depart-button i {
+  display: inline-block;
+  text-align: left;
+}
+
+.category-list {
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.category-list i {
+  color: #76A9FF;
+}
+
+.category-list label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #19191D;
+}
+
+.category-list ul li {
+  margin-top: 16px;
+}
+
+.left-filter {
+  margin-top: 60px;
+  background: #F7F7FA;
+  padding: 10px  20px 15px;
+}
+
+.left-filter h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 10px 0px;
+}
+
+.left-filter ul li {
+  margin-top: 10px;
+}
+
+.left-filter label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 20px;
+  color: #19191D;
+}
+
+.fl-date {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
